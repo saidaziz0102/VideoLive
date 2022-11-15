@@ -20,9 +20,10 @@ html {
   display: grid;
   height: 100vh;
   scroll-behavior: smooth;
-  background: linear-gradient(90.35deg, rgba(0, 0, 0, 0.5) 16.51%, rgba(109, 76, 110, 0.3) 48.2%, rgba(0, 0, 0, 0.01) 83.93%), url(../images/back-img.png);
+  background: linear-gradient(90.35deg, rgba(0, 0, 0, 0.5) 16.51%, rgba(109, 76, 110, 0.3) 48.2%, rgba(0, 0, 0, 0.01) 83.93%);
   background-position: center;
   font-style: normal;
+  background-image:  url(../images/back-img.png);
   position: relative;
 }
 
