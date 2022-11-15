@@ -1,0 +1,22 @@
+
+.burger{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    display: none;
+    
+    span{
+        width: 100%;
+        height: 3px;
+        background-color: $secondarycolor;
+        position: absolute;
+        top: 50%;
+        &:first-child{
+            top: 5;
+        }
+        &:last-child{
+           top: 80%;
+        }
+    }
+    // display: none;
+}

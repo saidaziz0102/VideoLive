@@ -1,0 +1,18 @@
+.icon{
+    display: none;
+    font-size: 20px;
+    padding: 10px 12px;
+    backdrop-filter: blur(10px);
+    color: $primarycolor;
+    border: 1px solid $primarycolor;
+    border-radius: 50%;
+    transition: all .2s;
+    cursor: pointer;
+    &:hover{
+        background-color: $primarycolor;
+        color: $textcolor;
+    }
+    &:first{
+    margin-left: 30px; 
+    }
+}

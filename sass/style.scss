@@ -1,0 +1,83 @@
+@import 'base/variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+body,
+html {
+    font-family: 'Atomic Age', cursive;
+    display: grid;
+    height: 100vh;
+    scroll-behavior: smooth;
+    background: linear-gradient(90.35deg, rgba(0, 0, 0, 0.5) 16.51%, rgba(109, 76, 110, 0.3) 48.2%, rgba(0, 0, 0, 0.01) 83.93%),
+        url(/images/back-img.png);
+    background-position: center;
+    font-style: normal;
+    position: relative;
+}
+
+:is(*):hover {
+    transition: all .4s ease;
+}
+
+.left {
+    font-size: 70px;
+    color: $secondarycolor;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+}
+
+.right {
+    font-size: 70px;
+    color: $secondarycolor;
+    position: absolute;
+    top: 50%;
+    right: 30px;
+}
+
+.container {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+// header
+
+@import 'block/header';
+
+// icon
+
+@import 'block/icon';
+
+// main
+
+@import 'block/main';
+
+// video
+
+@import 'block/video';
+
+// burger
+
+@import 'block/burger';
+
+// overlay
+
+@import 'block/popup';
+
+
+
+@import 'base/media';
